@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/bikeCard": [
+                "bikeCard/bikeCard.js"
+            ],
+            "c/data": [
+                "data/data.js"
+            ],
+            "c/detail": [
+                "detail/detail.js"
+            ],
+            "c/list": [
+                "list/list.js"
+            ],
+            "c/orderManagementComponent": [
+                "orderManagementComponent/orderManagementComponent.js"
+            ],
+            "c/selector": [
+                "selector/selector.js"
+            ],
+            "c/tile": [
+                "tile/tile.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
